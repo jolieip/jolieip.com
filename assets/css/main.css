@@ -2138,6 +2138,7 @@ body>article {
   animation-duration: 1s;
   animation-timing-function: steps(1, end);
   box-sizing: border-box;
+  position: relative;
 }
 
 @keyframes typewriter {
