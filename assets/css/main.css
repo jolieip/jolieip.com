@@ -2125,6 +2125,8 @@ body>article {
   animation-duration: 7s;
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #top .text_1::after {
@@ -2164,6 +2166,7 @@ body>article {
 #top p a {
   color: inherit;
 }
+
 
 #contact footer {
   font-size: 0.9em;
