@@ -2127,6 +2127,7 @@ body>article {
   animation-iteration-count: infinite;
   padding-left: 10px;
   padding-right: 10px;
+  box-sizing: border-box;
 }
 
 #top .text_1::after {
