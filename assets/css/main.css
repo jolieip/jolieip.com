@@ -2137,6 +2137,7 @@ body>article {
   animation: caret infinite;
   animation-duration: 1s;
   animation-timing-function: steps(1, end);
+  box-sizing: border-box;
 }
 
 @keyframes typewriter {
