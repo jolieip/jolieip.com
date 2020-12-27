@@ -2128,6 +2128,7 @@ body>article {
   padding-left: 10px;
   padding-right: 10px;
   box-sizing: border-box;
+  text-align: left;
 }
 
 #top .text_1::after {
@@ -2139,6 +2140,7 @@ body>article {
   animation-timing-function: steps(1, end);
   box-sizing: border-box;
   position: relative;
+  
 }
 
 @keyframes typewriter {
