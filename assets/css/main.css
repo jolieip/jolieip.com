@@ -2122,7 +2122,7 @@ body>article {
   animation: typewriter;
   display: inline-block;
   position: relative;
-  animation-duration: 7s;
+  animation-duration: 10s;
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
   padding-left: 10px;
@@ -2137,7 +2137,7 @@ body>article {
   position: relative;
   right: 0;
   animation: caret infinite;
-  animation-duration: 1s;
+  animation-duration: 10s;
   animation-timing-function: steps(1, end);
   box-sizing: border-box;
   position: relative;
