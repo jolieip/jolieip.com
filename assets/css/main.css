@@ -2144,8 +2144,8 @@ body>article {
   animation: typewriter;
   display: inline-block;
   position: relative;
-  animation-duration: 10s;
-  animation-timing-function: steps(25, end);
+  animation-duration: 5s;
+  animation-timing-function: steps(20, end);
   animation-iteration-count: infinite;
   padding-left: 10px;
   padding-right: 10px;
@@ -2157,7 +2157,7 @@ body>article {
   content: "|";
   position: relative;
   right: 0;
- animation-duration: 10s;
+ animation-duration: 4s;
   animation-timing-function: steps(1, end);
   box-sizing: border-box;
   position: relative;
