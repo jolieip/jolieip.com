@@ -2581,6 +2581,9 @@ body>article {
   margin-right: 0.3em;
 }
 
+#resume-download {
+  align-items: center;
+}
 /* Page layout */
 #save>section:first-of-type>aside {
   flex-basis: var(--sidebar-width);
