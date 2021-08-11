@@ -19,7 +19,7 @@
 </head>
 
 <body class="is-preload">
-	<!-- Nav -->
+	<!-- Nav
 	<nav id="nav">
 		<ul class="container">
 			<li><a href="#top">Top</a></li>
@@ -29,6 +29,17 @@
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
+-->
+	<div class="topnav" id="myTopnav">
+  <a href="#top" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="Jolie_Ip_Resume.pdf">Resume</a>
+  <a href="#portfolio">Projects</a>
+	<a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 	<!-- Home -->
 	<article id="top" class="wrapper style1">
@@ -116,28 +127,29 @@
 	</article>
 
 	<!-- Resume -->
-	<div class = "wrapper style1">
+	<div class="wrapper style1">
 		<div>
 			<header>
 				<h2> <strong>Work Experience</strong></h2>
 			</header>
 		</div>
-          <footer>
-          	<a href="Jolie_Ip_Resume.pdf" class="button large scrolly" download><i class="fa fa-download"></i> Download Resume</a>
-          </footer>
-					<hr>
+		<footer>
+			<a href="Jolie_Ip_Resume.pdf" class="button large scrolly" download><i class="fa fa-download"></i> Download Resume</a>
+		</footer>
+		<hr>
 		<div>
 			<footer>
 				<h2> <strong>Schedule a coffee chat!</strong></h2>
 
-	<div class="calendly-inline-widget" data-url="https://calendly.com/cascadiawe/15min" style="min-width:320px;height:630px;"></div>
-	<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+				<div class="calendly-inline-widget" data-url="https://calendly.com/cascadiawe/30min?hide_gdpr_banner=1" style="min-width:320px;height:630px;"></div>
+				<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
 			</footer>
 		</div>
-    </div>
+	</div>
 
-<!--	<article class="resume">
+	<!--	<article class="resume">
 		<div id="resumedisplay" class="resume-div">
 			<section id="save">
 				<section class="sheet">
@@ -450,7 +462,9 @@
 			<footer>
 				<ul id="copyright">
 					<li>&copy; Untitled. All rights reserved.</li>
-					<li><h6>This page received <span id="visits"></span> views.</h6></li>
+					<li>
+						<h6>This page received <span id="visits"></span> views.</h6>
+					</li>
 				</ul>
 			</footer>
 		</div>
@@ -458,16 +472,26 @@
 
 	<!-- Scripts -->
 	<script>
-function numberofVisits(response) {
-    document.getElementById('visits').innerText = response.value;
-}
-</script>
+		function numberofVisits(response) {
+			document.getElementById('visits').innerText = response.value;
+		}
+	</script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 
